@@ -1,0 +1,101 @@
+ @import url('https://fonts.googleapis.com/css2?family=Barlow&family=Shadows+Into+Light&family=Spartan:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(180deg, rgba(18, 34, 56, 0.8), rgba(28, 45, 68, 0.8)), url("images/thick-book-open-hardcover-on-260nw-1719370699.webp");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    background-size: cover;
+ 
+}
+
+.nav-logo {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Shadows Into Light', cursive;
+    color: rgb(215, 215, 215)!important;   
+}
+
+.input-group {
+    max-width: 600px;
+}
+
+ input[type="text"] {
+    background-color: transparent;
+    border: 1px solid rgb(215, 215, 215);
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(215, 215, 215);
+}  
+.form-control::placeholder {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(215, 215, 215);
+} 
+
+.form-control:focus {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: transparent;
+    color: rgb(215, 215, 215);;
+} 
+
+
+.btn-outline-primary {
+    color:  rgb(215, 215, 215);
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid rgb(215, 215, 215);
+    border-left: none;
+}
+
+.btn:focus,
+.btn:active {
+    outline: none;
+    box-shadow: none;
+    border: 1px solid rgb(215, 215, 215);
+    background: transparent;
+}
+
+.loader {
+    width: 60px;
+    height: 60px;
+    display: none;
+}
+
+.iword{
+    color: rgb(215, 215, 215);
+    font-size: 25px;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+.word {
+    font-size: 18px;
+    color: rgba(215, 215, 215, 0.748);
+}
+
+.meaning {
+    font-size: 20px;  
+    color: rgb(215, 215, 215);
+} 
+
+
+.suggested {
+    padding: 0px 10px;
+    padding-bottom: 4px;
+    background: transparent;
+    border: 1px solid rgb(215, 215, 215);
+    margin: 5px;
+    border-radius: 5px;
+    margin: 3px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 10px;
+}
